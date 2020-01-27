@@ -1,0 +1,42 @@
+daniele.fiungo:
+  password: secret
+  details:
+    name: Daniele
+    given_name: "Lup. Man."
+    family_name: "Fiungo"
+    middle_name: ""
+    nickname: "fiungo"
+    preferred_username: "daniele.fiungo"
+    profile: "https://gitlab.iad2.it/dfiungo"
+    picture: "https://robohash.org/dfiungo"
+    website: "https://gitlab.iad2.it/dfiungo"
+    email: "daniele.fiungo@iad2.it"
+    email_verified: true
+    gender: male
+    birthdate: 1984-10-19
+    zoneinfo: Europe/Rome
+    locale: "it-IT"
+    phone_number: "+393357444540"
+    phone_number_verified: true
+    address: "Via Cristoforo Colombo 163"
+    updated_at: 1579780106
+no.telephone:
+  password: secret
+  details:
+    name: TecUser
+    given_name: "Fake"
+    family_name: "User"
+    middle_name: ""
+    nickname: "no-telephone"
+    preferred_username: "daniele.fiungo"
+    profile: "https://example.com/no.telephone"
+    picture: "https://robohash.org/no.telephone"
+    website: "https://robohash.org/"
+    email: "no.telephone@stopphones.it"
+    email_verified: false
+    gender: male
+    birthdate: 1900-10-19
+    zoneinfo: Europe/Rome
+    locale: it-IT
+    address: Via Niente Telefoni 163
+    updated_at: 157970106
