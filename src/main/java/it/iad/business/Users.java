@@ -81,7 +81,7 @@ public class Users {
 				Map<String, String> userProps = o.get(credentials.getUsername());
 				if ( (null != userProps) && credentials.getPassword().equals(userProps.get("password"))) {
 					response = new LoginResponse();
-					response.setActive(true);
+					response.setActive(new Boolean(userProps.get("active")));
 					
 					UserActionRequired action = UserActionRequired.values()[new Random().nextInt(4)];
 					response.setUserActionRequired(Arrays.asList(action));
